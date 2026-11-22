@@ -1,4 +1,4 @@
-// 1. Grabing the elements we need from the page
+// 1. Grabbing the elements we need from the page
 const searchInput = document.getElementById("searchInput");
 const filterButtons = document.querySelectorAll(".filter-btn");
 const cards = document.querySelectorAll("#topicGrid .card");

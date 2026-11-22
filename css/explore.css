@@ -4,12 +4,12 @@
   color: var(--text-base);
 }
 
-/* 3. Stop the grid overflowing on small phones */
+/* 2. Stop the grid overflowing on small phones */
 #topicGrid {
   grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
 }
 
-/* 4. Less padding inside cards on phones */
+/* 3. Less padding inside cards on phones */
 @media (max-width: 480px) {
   .card {
     padding: var(--small);

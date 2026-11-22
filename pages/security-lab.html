@@ -7,15 +7,15 @@
       name="description"
       content="Test your threat detection skills in the CIPHER-NOVA Phishing Detection Simulator. Inspect realistic email and SMS scenarios, spot red flags, and get instant feedback."
     />
-    <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/components.css" />
     <title>CIPHER-NOVA | Security Lab &amp; Phishing Simulator</title>
   </head>
   <body>
-    <header>
-      <a href="index.html" aria-label="CIPHER-NOVA Home">
+    <header class="navbar">
+      <a href="../index.html" aria-label="CIPHER-NOVA Home" class="logo">
         <img
-          src="assets/icons/cipher-nova-logo.svg"
+          src="../assets/icons/cipher-nova-logo.svg"
           alt="CIPHER-NOVA Shield Logo"
         />
         <span>CIPHER-NOVA</span>
@@ -23,7 +23,7 @@
 
       <nav aria-label="Primary Navigation">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="../index.html">Home</a></li>
           <li><a href="explore.html">Explore</a></li>
           <li><a href="details.html">Details</a></li>
           <li>
@@ -73,40 +73,39 @@
               <div>
                 <dt>From:</dt>
                 <dd id="messageSender">
-                  IT Helpdesk
-                  &lt;<code>support@campus-portal-verify.net</code>&gt;
+                  PayPal Security
+                  &lt;<code>security-alert@paypa1-support-verify.com</code>&gt;
                 </dd>
               </div>
               <div>
                 <dt>To:</dt>
-                <dd id="messageRecipient">student.user@university.edu</dd>
+                <dd id="messageRecipient">user@personal-mail.com</dd>
               </div>
               <div>
                 <dt>Subject:</dt>
                 <dd id="messageSubject">
-                  ACTION REQUIRED: Password Expires in 3 Hours
+                  URGENT: Your Account Will Be Suspended in 24 Hours!
                 </dd>
               </div>
             </dl>
           </header>
 
           <div class="message-body" id="messageBody">
-            <p>Dear Student,</p>
+            <p>Dear Valued Customer,</p>
             <p>
-              Our security system noticed your campus account password is set to
-              expire today. Failure to confirm your credentials within 3 hours
-              will lock your email and course portal access.
+              We detected unauthorized login attempts on your account from an
+              unrecognized device.
             </p>
             <p>
-              Confirm your login details immediately using the secure link
-              below:
+              Failure to confirm your identity within 24 hours will result in
+              permanent account limitation and frozen funds.
             </p>
           </div>
 
           <div class="link-preview-box">
             <span>Simulated Link Preview (Hover / Destination URL):</span>
             <code id="messageLinkPreview">
-              https://university.edu.login-reset-check.net/auth
+              http://paypa1-support-verify.com/secure-login/auth
             </code>
           </div>
         </article>
@@ -208,9 +207,9 @@
 
     <footer>
       <div>
-        <a href="index.html">
+        <a href="../index.html">
           <img
-            src="assets/icons/cipher-nova-logo.svg"
+            src="../assets/icons/cipher-nova-logo.svg"
             alt="CIPHER-NOVA Shield Logo"
           />
           <span>CIPHER-NOVA</span>
@@ -224,7 +223,7 @@
       <nav aria-label="Footer Navigation">
         <h3>Pages</h3>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="../index.html">Home</a></li>
           <li><a href="explore.html">Explore</a></li>
           <li><a href="details.html">Details</a></li>
           <li><a href="security-lab.html">Security Lab</a></li>
@@ -241,5 +240,6 @@
         <p>&copy; 2026 CIPHER-NOVA. All rights reserved.</p>
       </div>
     </footer>
+    <script src="../js/security-lab.js" defer></script>
   </body>
 </html>
