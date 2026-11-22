@@ -151,7 +151,7 @@
   color: #35d69a;
 }
 
-/* ---------- small screens ---------- */
+/* small screens */
 @media (max-width: 40rem) {
   #feedback-form {
     grid-template-columns: minmax(0, 1fr);
