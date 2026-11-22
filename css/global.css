@@ -15,8 +15,6 @@
   --bg-panel: rgba(9, 24, 51, 0.65);
   --neon-cyan: #00fff0;
   --neon-pink: #ff2e9f;
-  --neon-purple: #b829ff;
-  --neon-yellow: #fcee0a;
   --text-base: #e8f1ff;
   --text-gray: #8ea8cc;
 
@@ -24,7 +22,6 @@
   --border-strong: rgba(0, 255, 240, 0.35);
   --glow-cyan: 0 0 12px rgba(0, 255, 240, 0.45);
   --glow-pink: 0 0 12px rgba(255, 46, 159, 0.45);
-  --glow-yellow: 0 0 12px rgba(252, 238, 10, 0.4);
 
   --tiny: 0.5rem;
   --small: 1rem;

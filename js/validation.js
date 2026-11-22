@@ -1,4 +1,4 @@
-// For Validation in contact feedback page (page 6).
+// Small helpers shared by the contact form.
 (function (global) {
   "use strict";
 

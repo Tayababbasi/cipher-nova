@@ -98,7 +98,6 @@ body > header nav a[aria-current="page"] {
   object-fit: cover;
 }
 
-.btn,
 .hero > div a,
 .next-steps-cta a,
 #finalResultsCard a,
@@ -128,7 +127,6 @@ body > header nav a[aria-current="page"] {
     color 0.2s ease;
 }
 
-.btn:hover,
 .hero > div a:hover,
 .next-steps-cta a:hover,
 #finalResultsCard a:hover,
@@ -141,7 +139,6 @@ body > header nav a[aria-current="page"] {
   text-shadow: none;
 }
 
-.btn:active,
 .decision-actions button:active {
   transform: translateY(0);
 }
@@ -266,10 +263,7 @@ button[type="submit"]:hover {
   color: var(--text-gray);
 }
 
-.search-bar input,
-.input,
-.textarea,
-.select {
+.search-bar input {
   width: 100%;
   padding: 0.7rem var(--small);
   background: rgba(9, 24, 51, 0.75);
@@ -283,17 +277,12 @@ button[type="submit"]:hover {
     box-shadow 0.3s ease;
 }
 
-.search-bar input::placeholder,
-.input::placeholder,
-.textarea::placeholder {
+.search-bar input::placeholder {
   color: var(--text-gray);
   opacity: 0.75;
 }
 
-.search-bar input:focus,
-.input:focus,
-.textarea:focus,
-.select:focus {
+.search-bar input:focus {
   outline: none;
   background: var(--bg-darkblue);
   border-color: var(--neon-cyan);
@@ -498,7 +487,6 @@ button[type="submit"]:hover {
 }
 
 .decision-actions,
-.next-steps-cta > div,
 #finalResultsCard {
   display: flex;
   flex-wrap: wrap;

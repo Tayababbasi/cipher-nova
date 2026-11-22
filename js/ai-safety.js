@@ -16,8 +16,5 @@
   }
 
   form.addEventListener("change", update);
-  form.addEventListener("reset", function () {
-    setTimeout(update, 0);
-  });
   update();
 })();

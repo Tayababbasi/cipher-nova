@@ -132,7 +132,7 @@
   font-weight: var(--font-bold);
 }
 
-/* empty live region stays for screen readers but takes no space */
+/* the empty status box is still read out by screen readers but takes no space */
 #form-status:empty {
   position: absolute;
   width: 1px;

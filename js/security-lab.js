@@ -107,7 +107,7 @@ const scenarios = [
   },
 ];
 
-// DOM Elements
+// Page elements
 const scenarioCounter = document.getElementById("scenarioCounter");
 const scoreDisplay = document.getElementById("scoreDisplay");
 const accuracyDisplay = document.getElementById("accuracyDisplay");
@@ -145,7 +145,7 @@ function renderScenario(index) {
   // Update scoreboard counter
   scenarioCounter.textContent = `${index + 1} of ${scenarios.length}`;
 
-  // Populate message console
+  // Fill in the message details
   messageChannel.textContent = item.type;
   messageSender.innerHTML = `${item.senderName} &lt;<code>${item.senderAddress}</code>&gt;`;
   messageRecipient.textContent = item.recipient;
@@ -153,7 +153,7 @@ function renderScenario(index) {
   messageLinkPreview.textContent = item.linkPreview;
 
   // Render body paragraphs cleanly
-  messageBody.innerHTML = item.content.map((para) => `<p>${para}</p>`).join("");
+  messageBody.innerHTML = item.content.map((paragraphs) => `<p>${paragraphs}</p>`).join("");
 
   // Reset form and feedback state for the new scenario
   form.reset();
